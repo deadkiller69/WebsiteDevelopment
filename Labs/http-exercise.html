@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTTP</title>
+</head>
+<body>
+   <h4> 1.	What is the Hypertext Transfer Protocol (HTTP)?</h4>
+   Hypertext Transfer Protocol(HTTP) is an application-layer protocol for transferring hypermedia documents, such as HTML, that follows a traditional client-server model and was developed for communication between web browsers and web servers, but may also be used for other applications.
+ 
+<h4>
+2.	Why is HTTP called a stateless protocol?
+</h4>
+HTTP is called a stateless protocol because each command is executed independently, without any knowledge of the commands that came before it. Thus, the server does not store data between two requests.  
+ <h4>
+3.	Describe the three phases of establishing a session using client-server protocols such as HTTP.
+</h4>
+The three phases of establishing a session using client-server protocols are: 
+<ol>
+    <li>
+	The client establishes a TCP connection. 
+</li>
+<li>
+The client sends a request and waits for the answer.
+</li>
+<li>
+    The server processes the request by sending back its answer, providing a status code and appropriate data.
+</li>
+</ol>
+<h4>
+4.	Describe the parameters on a get and post request.
+</h4>
+GET method is used to request data from specified resource. <br>
+POST method is used to send data to a server to create or update a resource. <br>
+The major distinction is that the GET method sends the request in the URL, whereas the POST method sends the data in the body part. <br>
+<h4>
+5.	What are the HTTP response status code and What do the HTTP status codes 200, and 404 indicate?
+</h4>
+HTTP response status codes shows whether or not a particular HTTP request was completed successfully.  <br>
+200 indicates that the request has succeeded and 404 indicates file not found.
+<h4>
+6.	What are HTTP cookies? Give an example.
+</h4>
+An HTTP cookie is a tiny piece of data sent by a server to a user's web browser. For example: it remembers stateful information for the stateless HTTP protocol.
+<h4>
+7.	Why are cookies a security issue?
+</h4>
+Information is saved in cookies that is accessible to the user. If you're not careful, that information might be stolen by another user via third-party software. 
+<h4>
+8.	Describe session hijacking and XSS?
+</h4>
+Session hijacking is an attack in which the attacker takes control of a user's session without the user's knowledge, obtains the session ID, and uses it to impersonate someone else. 
+XSS is a type of injection security attack in which an attacker injects data, such as a malicious script, into content from trusted websites.
+<h4>
+9.	Describe Cross-site request forgery (CSRF)?
+</h4>
+Cross-site request forgery (commonly known as CSRF) is a web security vulnerability that allows an attacker to trick users into doing things they don't want to do.
+<h4>
+10.	What are Cross-site HTTP requests (CORS) and what requests use CORS?
+</h4>
+CORS (Cross-Origin Resource Sharing) is an HTTP header-based method that allows a server to specify any other origins (domain, scheme, or port) from which a browser should permit resources loading.
+The CORS mechanism supports secure cross-origin requests and data transfers between browsers and servers.
+</body>
+</html>

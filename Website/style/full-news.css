@@ -1,0 +1,23 @@
+.sec-1{
+    text-align: center;
+}
+.div-1{
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.full-news-img{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+.post-detail{
+    font-size: .9em;
+}
+
+@media screen and (max-height: 600px){
+    .full-news-img{
+        height: 300px;
+    }
+}

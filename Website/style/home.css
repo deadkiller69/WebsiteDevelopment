@@ -1,0 +1,28 @@
+
+.sec-1{
+    width: 98%;
+    /* display: inline-block; */
+    margin: auto;
+    text-align: center;
+}
+.news-cat{
+    width: 100%;
+    text-align: justify;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.news-card{
+    display: inline-block;
+    margin: auto;
+    padding: 1%;
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    border: solid goldenrod 1px;
+}
+.news-img{
+    width: 100%;
+}
+.news-a{
+    color: aliceblue;
+}

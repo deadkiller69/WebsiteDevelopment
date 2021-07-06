@@ -1,0 +1,30 @@
+.sec-1{
+    text-align: center;
+}
+.div-1{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.side-divs{     
+    
+    text-align: justify;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 45%;
+    display: inline-block;
+    margin: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    /* border: solid goldenrod 1px; */
+}
+.about-img{
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px){
+    .side-divs{
+        width: 100%;
+    }
+}

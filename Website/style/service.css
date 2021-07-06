@@ -1,0 +1,11 @@
+.sec-1{
+    text-align: center;
+}
+.service-in-div{
+    text-align: justify;
+    display: inline-block;
+    margin: auto;
+    width: 95%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
